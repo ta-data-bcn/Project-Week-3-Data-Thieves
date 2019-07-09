@@ -65,9 +65,10 @@ Your mentor is not meant to:
 *Thursday*
 * Look for an interesting topic and make some hypothesis or think about some questions to answer about it. 
 * Investigate which data sources are available for that topic.
+* Reach some best practices agreements as a team.
 
 *Friday*
-* Plan your project and organize. 
+* Plan your project and organize. Think some risks you can have.
 * Start working on your database. 
 
 *Monday*
@@ -108,7 +109,7 @@ You will have 10 minutes to present your project. The below are some ideas for s
 * **(M)** Your topic. Why did you choose it?
 * **(M)** Presentation of the team
 * Main challenges & strengths
-* **(M)** Workflow. Did you follow your plan? Did you add something after starting the project?
+* **(M)** Team. Did you follow your workflow plan? Did you add something after starting the project? Did you follow your best practices agreements? Did you think about the risk management?
 * About your data: useful sources, incomplete data, data that would have been great to have, etc. 
 * Data cleaning: how and why you cleaned your data the way you did.
 * **(M)** Main insights: one slide per insight!
@@ -122,6 +123,7 @@ You will have 10 minutes to present your project. The below are some ideas for s
 ## Tips & Tricks  
 * First, choose your topic and look for sources available.
 * Before you start coding and integrate more data, propose some interesting questions you could answer with the data you have.
+
 
 <a name="resources"></a>
 
