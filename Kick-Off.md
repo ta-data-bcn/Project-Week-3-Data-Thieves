@@ -1,131 +1,120 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Welcome to the Data Thieves Project!  
-In this project you will get all the data yourself! :scream:    
 
 ## Content
 - [Project Description](#project-description)
 - [Project Goals](#project-goals)
-- [Requirements](#requirements)
-- [Deliverables](#deliverables)
+- [Data Workflow](#data-workflow)
+- [Requirements & Deliverables](#requirements-&-deliverables)
 - [Mentoring](#mentoring)
 - [Schedule](#schedule)
-- [Json Structure](#json-structure)
+- [JSON Structure](#json-structure)
 - [Presentation](#presentation)
 - [Tips & Tricks](#tips-&-tricks)
 - [Resources](#resources)
 
-<a name="project-description"></a>
-
 ## Project Description  
-In this project, you will choose a topic and find all the relevant data yourself. This means you can connect to an API, find a dataset or scrape data from the web. You then must organize, clean and analyse the data you find and present your findings in a presentation (you may use plots!) and a paper.  
+Like in the previous project you will work in **teams**. You will have to choose a topic and find all the relevant data yourselves. This means you can connect to an API, find a dataset or scrape data from the web. Then you must organize, clean and analyze the data you found and present your findings in a presentation (you may use plots!) and a paper.  
 
-<a name="project-goals"></a>
-
-## Project Goals  
-* Learn how to develop an interesting question and find the data to answer it.
+## Project Goals
+During this project you will:
 * Learn how to obtain data from different sources, including APIs, open source datasets and/or scrape data from the web.
-* Build a database from the data you find for the whole team to use.
-* Explain more complex arguments with plots.  
+* Learn how to use plots to better understand the data you are using and also to explain insights to your audience.
+* Learn how to integrate plots into your presentations.
 
-<a name="requirements"></a>
+## Data Workflow
+In this project you will focus on Data Extraction techniques, while continue developing your Data Wrangling and starting to Visualize Data.
 
-## Requirements  
-* You must plan your project. That is why creating a Kanban or Trello Board is mandatory. You have a template for Trello [here](https://trello.com/b/26Wr3pVF/project-3-data-thief).
-* You **CAN'T CODE** until you project is planned.
-* Create a *.gitignore* file and include it in your repository. 
-* The only tool you can use to plot is Zeppelin.  
-* Your project must include data from at least 2 different data sources (APIs & web, dataset & APIs, ...)
+## Requirements & Deliverables
+The **mandatory** requirements that this project needs to satisfy are:
+* The project must be planned. That is why creating a Kanban board is important. You can find a template for Trello [here](https://trello.com/b/26Wr3pVF/project-3-data-thief). Remember that you **CAN'T CODE** until your project is planned.
+* Your repository must be clean and organized; this means that it must include a *.gitignore* file and a README file and also have a functional file structure.
+* The only tool you can use to plot is a Zeppelin notebook.
+* Your project must include data from at least 2 different data sources (APIs & web, dataset & APIs, etc.).
+* Your project must include a database of your design created in a cloud (e.g. Google Cloud Platform) and a complete analysis of your data including the most meaningful insights you found.
+* The project needs to be presented to your colleagues on the day of the presentation.
 
-<a name="deliverables"></a>
+The **mandatory** deliverables that you must turn in are:
+* Link to the repository you used while working on your project. The repository must include all the files you used to complete your analysis. Remember to commit often to avoid trouble in case you mess up: this means more than 1 commit!
+* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
+* The credentials to access your database (remember to create a read-only user since you will probably be using a public github repository).
+* A paper illustrating your project in JSON format created through Zeppelin (more details in the JSON Structure section).
 
-## Deliverables  
-You are required to turn in the following:  
-1. Link to your repository with your code, Zeppelin JSON (details below) and README.
-2. Access information to your database in Google Cloud with a description of each table and how they relate.  
-3. Links to the data you are using (sources) and your organization (trello).  
-4. Slides for your presentation (template provided).  
-
-<a name="mentoring"></a>
+The **deadline** to turn in the deliverables is right before the project presentations.
 
 ## Mentoring
 One of the TAs will be your mentor!
+
 Your mentor will:
-* Follow your project in general, will be the second person that knows more about the project, after you.
-* Check if you are following the tasks, your blockers, etc
-* Help/support you in specific questions.
+* Keep track of your project in general terms. Your mentor will be the second person that knows more about the project, after you.
+* Check if you are following your plan: are you keeping up with your tasks and deadlines? Do you have any obstacles blocking you?
+* Help/support you with specific questions.
 
-Your mentor is not meant to:
+Your mentor is **not** meant to:
 * Know everything.
-* Be your manager. You have to be the responsible person to do the tasks!
-
-<a name="schedule"></a>
+* Be your manager. You have to be responsible of your own tasks!
 
 ## Schedule  
-*Thursday*
-* Look for an interesting topic and make some hypothesis or think about some questions to answer about it. 
-* Investigate which data sources are available for that topic.
-* Reach some best practices agreements as a team.
 
-*Friday*
-* Plan your project and organize. Think some risks you can have.
-* Start working on your database. 
+**Please note** that the following schedule is simply a guideline. Feel free to organize your work as you see fit.
 
-*Monday*
-* Be ready for the database validation with the Lead Teacher and TAs.
-* Start working on your analysis and plots. Think about the plots you want to create and the structure of your paper. 
+**Thursday**
+* Choose a topic for your project.
+* Find interesting questions related to your topic.
+* Brainstorm to find out what kind of data you can use to answer those questions.
+* Research and look for the data you need. Remember that you need to use at least two different sources.
+* Fork the project repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-3-Data-Thieves/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date.
 
-*Wednesday*
-* Start working on your presentation. 
+**Friday**
+* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Define tasks, specifying those to be done individually and those to be done together. Remember that you **CAN'T CODE** until your project is planned.
+* Once you finish, start coding!
+* Clean your data.
+* Design your database.
 
-*Thursday*
-* Finish your analysis and presentation.
+**Monday**
+* **CHECKPOINT:** Database validation with the Lead Teacher and TAs **at 4PM**.
+* Start working on your analysis and plots. Think about which plots will help with your analysis and design the structure of your paper.
 
-*Friday*
-* Presentation!
+**Wednesday**
+* Start working on your presentation.
 
-<a name="json-structure"></a>
+**Thursday**
+* Complete your analysis and presentation.
 
-## Json structure
-No plots outside a sql cell!  
-The json will be your paper and it is meant to have all the (analysis) information about your project.
+**Friday**
+* Presentation time at **11 AM**! There will be a 15-minute break during the presentations!
+
+## JSON structure
+Your paper will be a JSON file created through Zeppelin with a combination of plots and analysis. All the plots will need to be created in SQL cells.
 
 The structure should be:
-1. Title of the project
-2. Introduction to your project.
-3. Data you are using (and comments, main challenges, strengths & weaknesses, etc...)
-4. Questions you want to answer (maybe divided by different topics). Each question should include a graph and a conclusion written in a markdown cell.
-5. Conclusions after your analysis.
-6. Further questions.
+1. Title of the project.
+2. Introduction to the analysis.
+3. Data used (sources, limitations, cleaning, etc...)
+4. Questions you want to answer. Each question should include a graph and an answer to that question.
+5. Insights derived from your analysis.
+6. Possible further questions and improvements.
 
-You can find some paper examples in the ```Resources``` section. 
-
-<a name="presentation"></a>
+You can find some paper examples in the ```Resources``` section.
 
 ## Presentation
-You will have 10 minutes to present your project. The below are some ideas for slides you could include in your presentation; those marked with an **(M)** are mandatory! 
+The presentation time limit is **10 minutes**! Our suggestion is to include at least the following slides in your presentation but feel free to add or remove slides:
 
-* **(M)** Title of the project
-* **(M)** Your topic. Why did you choose it?
-* **(M)** Presentation of the team
-* Main challenges & strengths
-* **(M)** Team. Did you follow your workflow plan? Did you add something after starting the project? Did you follow your best practices agreements? Did you think about the risk management?
-* About your data: useful sources, incomplete data, data that would have been great to have, etc. 
-* Data cleaning: how and why you cleaned your data the way you did.
-* **(M)** Main insights: one slide per insight!
-* Questions you couldn't answer. 
-* Something funny that happened during the project. 
-* Things you learned during this project.
-* If you could start from scratch, what would you do differently?
-
-<a name="tips-&-tricks"></a>
+* Title of the project
+* Team presentation
+* Goals of the project
+* Data - sources, problems and limitations
+* Database - data wrangling/cleaning and database structure
+* Main insights
+* Organization. Did you follow your workflow plan? Did you add something after starting the project? Did you follow your best practices agreements? Did you think about the risk management?
+* Questions you were not able to answer and why
+* Learnings
 
 ## Tips & Tricks  
-* First, choose your topic and look for sources available.
-* Before you start coding and integrate more data, propose some interesting questions you could answer with the data you have.
-
-
-<a name="resources"></a>
+* Questions first. Data second.
+* Think about the workflow of your analysis BEFORE starting to code.
+* You will have more questions than answers. It's not a problem if you can't answer some or any of your questions. Just show us why you couldn't answer them, that itself will be interesting!
 
 ## Resources  
 ### Lists
