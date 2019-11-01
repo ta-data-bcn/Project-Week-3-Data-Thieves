@@ -9,7 +9,7 @@
 - [Requirements & Deliverables](#requirements-&-deliverables)
 - [Mentoring](#mentoring)
 - [Schedule](#schedule)
-- [JSON Structure](#json-structure)
+- [Notebook Structure](#notebook-structure)
 - [Presentation](#presentation)
 - [Tips & Tricks](#tips-&-tricks)
 - [Resources](#resources)
@@ -30,7 +30,7 @@ In this project you will focus on Data Extraction techniques, while continue dev
 The **mandatory** requirements that this project needs to satisfy are:
 * The project must be planned. That is why creating a Kanban board is important. You can find a template for Trello [here](https://trello.com/b/26Wr3pVF/project-3-data-thief). Remember that you **CAN'T CODE** until your project is planned.
 * Your repository must be clean and organized; this means that it must include a *.gitignore* file and a README file and also have a functional file structure.
-* The only tool you can use to plot is a Zeppelin notebook.
+* The only tool you can use to plot is Tableau.
 * Your project must include data from at least 2 different data sources (APIs & web, dataset & APIs, etc.).
 * Your project must include a database of your design created in a cloud (e.g. Google Cloud Platform) and a complete analysis of your data including the most meaningful insights you found.
 * The project needs to be presented to your colleagues on the day of the presentation.
@@ -39,7 +39,7 @@ The **mandatory** deliverables that you must turn in are:
 * Link to the repository you used while working on your project. The repository must include all the files you used to complete your analysis. Remember to commit often to avoid trouble in case you mess up: this means more than 1 commit!
 * Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
 * The credentials to access your database (remember to create a read-only user since you will probably be using a public github repository).
-* A paper illustrating your project in JSON format created through Zeppelin (more details in the JSON Structure section).
+* A paper illustrating your project in Jupyter Notebook format that also contains your plots from Tableau.
 
 The **deadline** to turn in the deliverables is right before the project presentations.
 
@@ -85,8 +85,8 @@ Your mentor is **not** meant to:
 **Friday**
 * Presentation time at **11 AM**! There will be a 15-minute break during the presentations!
 
-## JSON structure
-Your paper will be a JSON file created through Zeppelin with a combination of plots and analysis. All the plots will need to be created in SQL cells.
+## Notebook structure
+Your paper will be a Jupyter notebook with a combination of plots and analysis. All the plots will need to be created in Tableau.
 
 The structure should be:
 1. Title of the project.
