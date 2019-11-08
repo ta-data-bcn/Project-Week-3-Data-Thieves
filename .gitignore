@@ -70,7 +70,7 @@ ehthumbs_vista.db
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-/archive/
+/your-project/archive/
 
 # Windows Installer files
 *.cab
