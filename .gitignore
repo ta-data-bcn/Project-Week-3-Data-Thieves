@@ -71,6 +71,8 @@ ehthumbs_vista.db
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 /your-project/archive/
+apikey.py
+/your-project/__pycache__/
 
 # Windows Installer files
 *.cab
