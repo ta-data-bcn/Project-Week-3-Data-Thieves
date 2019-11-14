@@ -36,3 +36,7 @@ Duration INT,
 last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 select * from video_table_ind;
+
+
+-- transformations
+-- UPDATE video_table_ind SET Published=  str_to_date(  Published, '%m/%d/%Y');
