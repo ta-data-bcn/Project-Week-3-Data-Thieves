@@ -74,6 +74,11 @@ $RECYCLE.BIN/
 apikey.py
 /your-project/__pycache__/
 
+#Folders
+/your-project/archive/
+/your-project/Web-Scraping/archive/
+/your-project/SQL-Data-Repository/archive/
+
 # Windows Installer files
 *.cab
 *.msi
