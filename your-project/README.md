@@ -39,7 +39,7 @@ The video_table contents the list of videos for the Top3 channels we analysed.
 The video_table_ind is not related to other two tables and contents the videos for the 3 independent channels we analysed.
 
 ## Workflow
-We started scrapping some initial information we used after to get more detailed data in Youtube API. With this information from the API we started our analysis, and we saw we needed more data. So we got extra data for independent channels previously known in the API and we finished the analysis.
+We started scrapping some initial information we used after to get more detailed data in Youtube API. During this process, we realised that we were not able to get the data of a large number of content creators, therefore the decsision was made to take three of the top current creators and 3 establised, independent creators.
 
 ## Organization
 We organized our work with a Trello board, setting all the tasks to do. Everyone was in charge of some of the tasks in order to work in parallel.
