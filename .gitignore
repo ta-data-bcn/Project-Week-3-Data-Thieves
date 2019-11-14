@@ -73,6 +73,7 @@ $RECYCLE.BIN/
 /your-project/archive/
 apikey.py
 /your-project/__pycache__/
+__pycache__
 
 #Folders
 /your-project/archive/
