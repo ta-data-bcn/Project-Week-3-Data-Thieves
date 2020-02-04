@@ -7,7 +7,7 @@ shows the structure and management of DBConnector
     
 - file content example:
 localhost
-root
+username
 mySuperPassword
 dataBase_name
 
