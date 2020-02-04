@@ -35,7 +35,7 @@ class DBConnector:
         """
         return pd.read_sql(sql, self.conn)
 
-    def to_sql(self, df, table_name, ifexists):
+    def to_sql(self, df, table_name, ifexists='replace'):
         """
         transforms the given DataFrame into a table
         and sabe the content into it

@@ -14,7 +14,7 @@ if __name__ == '__main__':
         films = wr.get_text_in_elements_from_list(names_res, 'h4')
         # extract sections after each header containing relation character-words
         chars_in_film = wr.soup.find_all('div', {'class':'emoji-chart'})
-        chars = wr.get_text_in_elements_from_list(chars_in_film, 'figcaption')
+        # = wr.get_text_in_elements_from_list(chars_in_film, 'figcaption')
         chars_by_film = {}
         # loop over each film and extract each character-words relation
         for pos in range(len(chars_in_film)):
