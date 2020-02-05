@@ -34,3 +34,4 @@ if __name__ == '__main__':
         df['Total'] = df[films].sum(axis=1)
         print(df)
         df.to_csv('character_words.csv', sep=';')
+        
