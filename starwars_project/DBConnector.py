@@ -45,7 +45,7 @@ class DBConnector:
         - table_name: the name of the table to save
         - ifexists: what to do if there is a table with given name
         """
-        df.to_sql(table_name, con=self.engine, if_exists=ifexists)
+        df.to_sql(table_name, index=True, index_label='id', con=self.engine, if_exists=ifexists)
 
     def __del__(self):
         print('-----------------------')
@@ -65,4 +65,5 @@ class DBConnector:
 if __name__ == '__main__':
     db = DBConnector('connection/credentials.txt')
     df = pd.read_csv('csv/films_full.csv')
+    df = df.drop(['Unnamed: 0','url'], axis=1)
     db.to_sql(df, 'films')
