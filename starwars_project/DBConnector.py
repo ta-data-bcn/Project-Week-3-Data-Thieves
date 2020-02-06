@@ -1,4 +1,4 @@
-import pymysql
+from sqlalchemy import create_engine
 from pathlib import Path
 import sys
 import pandas as pd
@@ -24,7 +24,9 @@ class DBConnector:
             lines = f.read().splitlines()
             f.close()
         # create connector
-        self.conn = pymysql.connect(host=lines[0], user=lines[1], password=lines[2], db=lines[3])
+        driver   = 'mysql+pymysql:'
+        connection_string = f'{driver}//{lines[1]}:{lines[2]}@{lines[0]}/{lines[3]}'
+        self.engine = create_engine(connection_string)
 
     def read_sql(self, sql):
         """
@@ -33,7 +35,7 @@ class DBConnector:
         - sql: the query to execute
         - return >> pandas dataframe with result
         """
-        return pd.read_sql(sql, self.conn)
+        return pd.read_sql(sql, self.engine)
 
     def to_sql(self, df, table_name, ifexists='replace'):
         """
@@ -43,12 +45,12 @@ class DBConnector:
         - table_name: the name of the table to save
         - ifexists: what to do if there is a table with given name
         """
-        df.to_sql(table_name, self.conn, if_exists=ifexists)
+        df.to_sql(table_name, con=self.engine, if_exists=ifexists)
 
     def __del__(self):
         print('-----------------------')
         try:
-            self.conn.close()
+            self.engine.close()
         except:
             print('could not close connection')
         try:
@@ -57,3 +59,10 @@ class DBConnector:
             print('could not close engine')
         finally:
             print('Connector destroyed.')
+
+
+
+if __name__ == '__main__':
+    db = DBConnector('connection/credentials.txt')
+    df = pd.read_csv('csv/films_full.csv')
+    db.to_sql(df, 'films')
