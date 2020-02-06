@@ -5,7 +5,7 @@ import hashlib
 import json
 import requests
 import random
-# import seaborn as sns
+import matplotlib.pyplot as plt
 
 def acquire_csv(csv_file):
 	data_csv = pd.read_csv('../data/'+csv_file)
@@ -74,14 +74,16 @@ def wrangling(df1, stats, info):
 
     # Time to work with the second csv
     # Taking off useless columns as IDs, Alignment (repeated) Eyecolor or Race from info df
-    print(info.columns)
     info_cl  = info.drop(columns = ["Publisher","ID","Alignment","EyeColor", "Race", "HairColor","SkinColor"])
 
     # Merging dataframe with Marvel_DF
     Marvel_temp = Marvel_DF.merge(info_cl, on = "Name")
+    Marvel_temp2 = Marvel_temp.drop_duplicates("Name")
+
+
 
     #Converting categorical values to binomial and '-', neutral to 0
-    Marvel_characters_info_BI = Marvel_temp.replace({"Alignment": {"good": 0 , "bad": 1, "neutral" : 0 }, 
+    Marvel_characters_info_BI = Marvel_temp2.replace({"Alignment": {"good": 0 , "bad": 1, "neutral" : 0 }, 
                                             "Gender": {"Male": 0 , "Female": 1, "-" : 0 }} )
 
     # converting object to numeric values
@@ -89,15 +91,24 @@ def wrangling(df1, stats, info):
     Marvel_characters_info_BI["Alignment"] = pd.to_numeric(Marvel_characters_info_BI["Alignment"])
     Marvel_characters_info_BI["ID"] = Marvel_characters_info_BI["ID"].astype(str)
 
+    # Ammending some wrong values by hand
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Iron Monger', 'Height'] == 300
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Iron Monger', 'Weight'] == 1000
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Leech', 'Height'] == 128
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Leech', 'Weight'] == 30
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Stardust', 'Height'] == 213
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Beyonder', 'Height'] == 189
+    Marvel_characters_info_BI.loc[Marvel_characters_info_BI.Name == 'Beyonder', 'Weight'] == 109
+
     return Marvel_characters_info_BI
 
 
 def ask_input(dict_test):
-    gender = str(input("What gender you want to analyse? (male/female/all) ")).lower()
-    alignment = str(input("What alignment you want to analyse? (good/bad/all)")).lower()
+    gender = str(input("Which gender do you want to analyse? (male/female/all) ")).lower()
+    alignment = str(input("Which alignment do you want to analyse? (good/bad/all) ")).lower()
     if (gender not in dict_test.keys()) or (alignment not in dict_test.keys()):
         print ("Puny human!")
-        ask_input()
+        gender, alignment = ask_input(dict_test)
     return gender, alignment
 
 def df_selection(df, gender, alignment):
@@ -132,3 +143,16 @@ def median_df(df):
     for i in col:
         dict_medians[i] = df[i].median()
     return dict_medians
+
+def st_dev(df):
+    dict_stds = {}
+    col = ['Intelligence', 'Strength', 'Speed', 'Durability', 'Power', 'Combat', 'Total','Height', 'Weight']
+    for i in col:
+        dict_stds[i] = df[i].std()
+    return dict_stds
+
+def graphing(df, file_name):
+    # Doing a multi-graph figure
+    plt.rc('figure', titlesize=6)
+    df[df.columns[2:]].hist(ylabelsize=10, bins = 15, figsize=(20, 20))
+    plt.savefig(f"CSVs/{file_name}.png")
