@@ -64,6 +64,5 @@ class DBConnector:
 
 if __name__ == '__main__':
     db = DBConnector('connection/credentials.txt')
-    df = pd.read_csv('csv/films_full.csv')
-    df = df.drop(['Unnamed: 0','url'], axis=1)
-    db.to_sql(df, 'films')
+    df = pd.read_csv('data/csv/character_words.csv', sep=';')
+    db.to_sql(df, 'character_words')
