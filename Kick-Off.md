@@ -67,7 +67,7 @@ Your mentor is **not** meant to:
 * Fork the project repository and edit the README overview. You can find a [template](https://github.com/ta-data-bcn/Project-Week-3-Data-Thieves/blob/master/your-project/README.md) for your README file in this repository. Remember to keep the README up-to-date.
 
 **Friday**
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Define tasks, specifying those to be done individually and those to be done together. Remember that you **CAN'T CODE** until your project is planned.
+* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/26Wr3pVF/project-3-data-thief). Define tasks, specifying those to be done individually and those to be done together. Remember that you **CAN'T CODE** until your project is planned.
 * Once you finish, start coding!
 * Clean your data.
 * Design your database.
