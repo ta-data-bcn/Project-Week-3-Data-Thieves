@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Title of My Project
-*[Your Name]*
+*[Beto Sibileau & Gareth Hughes]*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analytics March 2020, Barcelona & 24.04.2020]*
 
 ## Content
 - [Project Description](#project-description)
