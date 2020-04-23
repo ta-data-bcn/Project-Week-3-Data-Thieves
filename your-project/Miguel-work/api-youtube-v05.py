@@ -29,10 +29,16 @@ list_df_monthly = []
 
 
 for each_year in range(start_year, end_year):
-    for each_month in range(1,12):
+    for each_month in range(1,13): 
+        
+        # A il/else loop is created to have a more precisse control of the time range evaluated.
+        # December will have an expecific expression to avoid errors. The other months will be the same.
+        if each_month == 12:
         start_time = datetime(year=each_year, month= each_month, day=1).strftime('%Y-%m-%dT%H:%M:%SZ')
-        end_time = datetime(year= each_year+1, month= each_month+1, day=1).strftime('%Y-%m-%dT%H:%M:%SZ')
-
+        end_time = datetime(year= each_year, month= each_month, day=31).strftime('%Y-%m-%dT%H:%M:%SZ')
+        else:
+        start_time = datetime(year=each_year, month= each_month, day=1).strftime('%Y-%m-%dT%H:%M:%SZ')
+        end_time = datetime(year= each_year, month= each_month+1, day=1).strftime('%Y-%m-%dT%H:%M:%SZ')
 
         res = youtube.search().list(part='snippet', q= search_topic, type='video',
                                     publishedAfter=start_time,
