@@ -1,6 +1,0 @@
-
-
-https://www.kaggle.com/abhi3733/top-100-best-selling-book-on-amazoncom#top_100_books.csv
-
-https://www.kaggle.com/jealousleopard/goodreadsbooks
-
