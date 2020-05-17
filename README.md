@@ -41,7 +41,7 @@ The join is and outer join using the 'Date'.
 3. Acquiring the data
 4. Cleaning the data and joining it
 5. Plotting and analysis
-6. Writing of conclusions
+
 
 ## Organization
 We used a Trello board to manage the workload.
