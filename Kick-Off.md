@@ -83,7 +83,7 @@ Your mentor is **not** meant to:
 * Complete your analysis and presentation.
 
 **Friday**
-* Presentation time at **11 AM**! There will be a 15-minute break during the presentations!
+* Presentation time at **02 PM**! There will be a 15-minute break during the presentations!
 
 ## Notebook structure
 Your paper will be a Jupyter notebook with a combination of plots and analysis. All the plots will need to be created in Tableau.
