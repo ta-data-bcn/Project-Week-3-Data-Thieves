@@ -38,7 +38,6 @@ The **mandatory** requirements that this project needs to satisfy are:
 The **mandatory** deliverables that you must turn in are:
 * Link to the repository you used while working on your project. The repository must include all the files you used to complete your analysis. Remember to commit often to avoid trouble in case you mess up: this means more than 1 commit!
 * Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
-* The credentials to access your database (remember to create a read-only user since you will probably be using a public github repository).
 * A paper illustrating your project in Jupyter Notebook format that also contains your plots from Tableau.
 
 The **deadline** to turn in the deliverables is right before the project presentations.
