@@ -38,6 +38,7 @@ The **mandatory** requirements that this project needs to satisfy are:
 The **mandatory** deliverables that you must turn in are:
 * Link to the repository you used while working on your project. The repository must include all the files you used to complete your analysis. Remember to commit often to avoid trouble in case you mess up: this means more than 1 commit!
 * Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
+* An Entity Relationship Diagram (ERD) that describes the structure of your database. You don't need to specify the datatypes of each column, only the tables you will create, the columns they have and the relationships between the tables. Include the ERD in your README file as an image.
 * A paper illustrating your project in Jupyter Notebook format that also contains your plots from Tableau.
 
 The **deadline** to turn in the deliverables is right before the project presentations.
@@ -71,8 +72,8 @@ Your mentor is **not** meant to:
 * Clean your data.
 * Design your database.
 
-**Monday**
-* **CHECKPOINT:** Database validation with the Lead Teacher and TAs **at 4PM**.
+**Tuesday**
+* **CHECKPOINT:** Database validation with the Lead Teacher and TAs **at 3PM**.
 * Start working on your analysis and plots. Think about which plots will help with your analysis and design the structure of your paper.
 
 **Wednesday**
