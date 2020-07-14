@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# The mighty Human - Destroyer of Worlds
+*[Mar Cánovas, Mireia Guinovart, Carles Rosell]*
 
-*[Your Cohort, Campus & Date]*
+*[DataAnalysis, Ironhack & 09-07-2020]*
 
 ## Content
 - [Project Description](#project-description)
@@ -18,10 +18,31 @@
 Write a short introduction to your project: 3-5 sentences about the context of your topic and why you chose it.
 
 ## Questions & Hypotheses
-What are the questions you would like to answer with your analysis? What did you feel were the answers to those questions before answering them with data?
+Q1. Have the threatened species increased over the years?
+
+Q2. Has human population increased over the years?
+
+Q3. Is humans growth affecting animal population?
+
+Q4. Are the humans correlated to climate change?
+
+Q5. Are vertebrates and invertebrates affected in a different manner?
+
+Q6. Are plants and animals affected in a different manner?
+
+
+H1. The Humans are directly related to animals extinction
+
+H2. The temperature is directly related to animals extinction
+
+H3. Vertebrates and invertebrates are affected differently. Invertebrates are the most affected.
+
+H4. Plants and animals are affected differently.
 
 ## Dataset
-What dataset (or datasets) did you use? What are the different sources you used (e.g. APIs, web scrapping, etc.)? Provide links to the data if available and describe the data briefly.
+1. Animal Species - (https://www.iucnredlist.org/resources/summary-statistics)
+2. Clima - (https://climate.nasa.gov/vital-signs/global-temperature/)
+3. Population - (https://databank.worldbank.org/)
 
 ## Database
 What is the structure of your database? Have you created more than one table and if yes, how are they related to each other?
@@ -39,4 +60,4 @@ Include links to your repository, slides and kanban board. Feel free to include 
 
 [Repository](https://github.com/)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Trello](https://trello.com/b/TEH9u75K/projectweek3datathieves)  
