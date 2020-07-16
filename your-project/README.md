@@ -44,16 +44,16 @@ H4. Plants and animals are affected differently.
 2. Clima - (https://climate.nasa.gov/vital-signs/global-temperature/)
 3. Population - (https://databank.worldbank.org/)
 
-## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other?
-
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?
 
 ## Organization
 How did you organize your work? Did you use any tools like a kanban board?
+We used trello in order to organize our work and have a visual representation of the pendind tasks.
+
 
 What does your repository look like? Explain your folder and file structure.
+
 
 ## Links
 Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
