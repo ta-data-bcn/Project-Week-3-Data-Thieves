@@ -49,6 +49,7 @@ Outline the workflow you used in your project. What are the steps you went throu
 
 ## Organization
 How did you organize your work? Did you use any tools like a kanban board?
+
 We used trello in order to organize our work and have a visual representation of the pendind tasks.
 
 
