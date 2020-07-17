@@ -15,37 +15,48 @@
 - [Links](#links)
 
 ## Project Description
-Write a short introduction to your project: 3-5 sentences about the context of your topic and why you chose it.
+
+In the world we live today, climate change and species decline is a common or at least know topic to discuss. It is said that humans are destructive and affect not only other species but also Earth. In order to learn more about the issue, we decided to look at the facts and analyse how the human population affects Earth's temperature and how these affect non-human species.
+
 
 ## Questions & Hypotheses
-Q1. Have the threatened species increased over the years?
 
-Q2. Has human population increased over the years?
+- Q1. Have the threatened species, the human population and the temperature increased over the years?
 
-Q3. Is humans growth affecting animal population?
+- Q2. Is human growth affecting non-human populations and temperature?
 
-Q4. Are the humans correlated to climate change?
-
-Q5. Are vertebrates and invertebrates affected in a different manner?
-
-Q6. Are plants and animals affected in a different manner?
+- Q3. Are vertebrates,invertebrates and plants affected in a different manner?
 
 
-H1. The Humans are directly related to animals extinction
+- H1. Humans are related to the extinction of non-human population 
 
-H2. The temperature is directly related to animals extinction
+- H2. Temperature is related to the extinction of non-human population 
 
-H3. Vertebrates and invertebrates are affected differently. Invertebrates are the most affected.
+- H3. Vertebrates and invertebrates are affected differently, being the latter the most affected
 
-H4. Plants and animals are affected differently.
+- H4. Plants and animals are affected differently, being the plants the most affected
+
+- H5. As the temperature varies, the ratio of the most affected non-human populations change
+
 
 ## Dataset
 1. Animal Species - (https://www.iucnredlist.org/resources/summary-statistics)
-2. Clima - (https://climate.nasa.gov/vital-signs/global-temperature/)
+2. Temperature - (https://climate.nasa.gov/vital-signs/global-temperature/)
 3. Population - (https://databank.worldbank.org/)
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+
+The workflow followed was:
+
+- Questions
+- Hypotheses
+- Dataset research
+- Web scrapping + API requests
+- Dataset enquiries
+- Data cleaning
+- Data analysis
+- Results
+- Conclusions
 
 ## Organization
 How did you organize your work? Did you use any tools like a kanban board?
