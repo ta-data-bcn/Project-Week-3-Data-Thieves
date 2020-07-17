@@ -1,11 +1,12 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Trumponomics?
+*Cristina Arias, Pol Lorente & Pau Navarro*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analytics, Barcelona, June 2020]*
 
 ## Content
+
 - [Project Description](#project-description)
 - [Questions & Hypotheses](#questions-hypotheses)
 - [Dataset](#dataset)
@@ -15,28 +16,47 @@
 - [Links](#links)
 
 ## Project Description
-Write a short introduction to your project: 3-5 sentences about the context of your topic and why you chose it.
+
+We are interested in understanding the influence of Western governments in international finance and public opinion. Who is more influenced nowadays? Do they affect each other? Since this is a wide and complex topic, we narrow it down to an observation of the characters that have caused great global turnmoil in the last decade: Wall Street & Trump.
 
 ## Questions & Hypotheses
-What are the questions you would like to answer with your analysis? What did you feel were the answers to those questions before answering them with data?
+
+- How does Wall Street affect Trump's popularity (and what does he have to say about it)?
+- How do Trump's tweets affect Wall Street?
 
 ## Dataset
-What dataset (or datasets) did you use? What are the different sources you used (e.g. APIs, web scrapping, etc.)? Provide links to the data if available and describe the data briefly.
 
-## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other?
+The datasets used are the following:
+
+**Dow Jones index**
+
+*Period:* Jan 2017-June 2020
+*Source:* Yahoo finance
+*Format:* csv
+
+**Trump's popularity index (approvals and disapprovals)**
+
+*Period:* Jan 2017-June 2020
+*Source:* "How popular is Donald Trump?", fivethirtyeight.com (https://projects.fivethirtyeight.com/trump-approval-ratings/?ex_cid=rrpromo)
+*Format:* webscrapping, JSON files
+
+**Trump tweets (csv)**
+
+*Period:* Jan 2017-June 2020
+*Source:* https://www.kaggle.com/austinreese/trump-tweets?select=realdonaldtrump.csv
+*Format:* csv
 
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?
 
 ## Organization
-How did you organize your work? Did you use any tools like a kanban board?
 
-What does your repository look like? Explain your folder and file structure.
+We used a Trello board to organize ourselves. Mostly, we divided the work on the data obtention and cleaning between the members of our groups and the topics on which we needed said data. Afterwards, we came together and discussed the main insights, ploted and stablished our conclusions and way to present them.
 
 ## Links
-Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
+This are some interesting links to further understand our project:
+
+[Repository](https://github.com/paunavarrogaspar/Project-Week-3-Data-Thieves)  
+[Slides](https://slides.com/cris-arias/deck-fc7015)  
 [Trello](https://trello.com/en)  
