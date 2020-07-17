@@ -93,8 +93,6 @@ drafts (folder):
 	secondary used datasets
 
 ## Links
-Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
-
 [Repository](https://github.com/MarCanovas/Project-Week-3-Data-Thieves.git)  
 [Slides](https://docs.google.com/presentation/d/1QSKYigACbWaYPUXfEvjud0S_tJ4xdA-ADxUupz5ZdyI/edit?usp=sharing)  
 [Trello](https://trello.com/b/TEH9u75K/projectweek3datathieves)  
