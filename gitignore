@@ -1,6 +1,25 @@
 # Created by https://www.toptal.com/developers/gitignore/api/android,macos,microsoftoffice,jupyternotebooks,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=android,macos,microsoftoffice,jupyternotebooks,python
 
+
+5e2073ba-5d1d-405c-8fad-5d51b9df65ec_Data.csv
+apt_indexed.csv
+climate-change_bra.csv
+data.csv
+threatened_data.csv
+Brasil_Endangered_Species.csv
+apt_full_indexed.cdv
+
+
+2000_assessed_animals.png
+2000_threatened_animals.png
+2010_assessed_animals.png
+2010_threatened_animals.png
+2019_assessed_animals.png
+2019_threatened_animals.png
+pop_growth_years.png
+
+
 ### Android ###
 # Built application files
 *.apk
@@ -101,6 +120,12 @@ output.json
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+Brazil Population Data-checkpoint.ipynb
+World Population Data-checkpoint.ipynb
+DataCleaning-checkpoint.ipynb
+WeatherInfoRetrieval-checkpoint.ipynb
+Endangered Animals data retrieve-checkpoint.ipynb
+Project3-checkpoint.ipynb
 
 # IPython
 profile_default/
@@ -142,6 +167,9 @@ Temporary Items
 
 # Word temporary
 ~$*.doc*
+~$eas Project3.docx
+Ideas Project3.docx
+Info sobre el land.docx
 
 # Word Auto Backup File
 Backup of *.doc*
@@ -163,6 +191,7 @@ Backup of *.doc*
 __pycache__/
 *.py[cod]
 *$py.class
+weather_extraction.py
 
 # C extensions
 *.so
@@ -196,6 +225,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+temperatures.txt
 
 # Unit test / coverage reports
 htmlcov/
@@ -236,6 +266,7 @@ target/
 # Jupyter Notebook
 
 # IPython
+
 
 # pyenv
 .python-version
@@ -289,4 +320,5 @@ dmypy.json
 
 # End of https://www.toptal.com/developers/gitignore/api/android,macos,microsoftoffice,jupyternotebooks,python
 
-
+# Portable Network Graphics
+*.png
