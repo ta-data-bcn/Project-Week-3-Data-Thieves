@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# COVID 19 & Stock Market - Exploratory Data Analysis
+*Gareth Hughes & Beto Sibileau.*
 
-*[Your Cohort, Campus & Date]*
+*Data Analytics March 2020 Bootcamp, Barcelona. (24.04.2020)*
 
 ## Content
 - [Project Description](#project-description)
@@ -15,28 +15,32 @@
 - [Links](#links)
 
 ## Project Description
-Write a short introduction to your project: 3-5 sentences about the context of your topic and why you chose it.
+Our project consists of analysing the impact of COVID-19 in terms of cases, deaths and testing and how this has impacted global markets. We prepared and carried out an analysis between two data sources using Pandas and Matplotlib visualization tools in Python. 
+<!--- wherever we could successfully analyse and visualize the data from our chosen sources. -->
 
 ## Questions & Hypotheses
-What are the questions you would like to answer with your analysis? What did you feel were the answers to those questions before answering them with data?
+Our hypothesis is that the Coronavirus would have distinct effects on the Global Market. Particuarly, we wanted to see how the number of total cases related to changes in the market. Do they coincide or is there a delay? Additionally, we wanted to investigate how Coronavirus numbers changed overtime globally and in specific countries. As we investigated the data, we were presented with more questions to ask. 
 
 ## Dataset
-What dataset (or datasets) did you use? What are the different sources you used (e.g. APIs, web scrapping, etc.)? Provide links to the data if available and describe the data briefly.
+Databases used: [Yahoo Finance API](https://finance.yahoo.com/quotes/API,Documentation/view/v1/) and [WHO CSV COVID19 Datasets](https://ourworldindata.org/coronavirus-source-data).
 
 ## Database
-What is the structure of your database? Have you created more than one table and if yes, how are they related to each other?
+We decided that creating a database was not nessecary in our case as we were able to manipulate our datasets easily in Pandas and JupyterNotebooks.
+Both datasets were aligned by dates, allowing an easy link between them.
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+Our workflow was mapped out using Trello in order to keep track of our tasks and goals. We communicated via Slack and Zoom to discuss and share data. 
+We also collated our data into one uniform JupyterNotebook, which we have subsequently shown in the form of a paper. 
 
+<!--- We organised the work using Trello and with GitHub. file share our latest figures while -->
 ## Organization
-How did you organize your work? Did you use any tools like a kanban board?
+We organized our remote work in a collaborated GitHub repository. Files such as images and notebooks were saved to seperate folders in order to ensure we didn't overwrite each other's data. In addition, we prepared a presentation in a shared Google slides showing the data analysis process and data visualizations. Finally, the JupyterNotebook's were merged and then uploaded into the main "your-code" file. 
 
-What does your repository look like? Explain your folder and file structure.
-
+<!---  Feel free to include any other links associated with your project. -->
 ## Links
-Include links to your repository, slides and kanban board. Feel free to include any other links associated with your project.
+Links to GitHub repositories, slides and kanban board are included below:
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Beto Repository](https://github.com/beto-Sibileau)  
+[Gareth Repository](https://github.com/peiriant/Project-Week-3-Data-Thieves)  
+[Slides](https://docs.google.com/presentation/d/1BTXM-IvcF2lO5uZjeCRaDrxv3b4xxCChFT3GSv59iKY/edit?ts=5ea04677#slide=id.g731ddd128b_1_6) 
+[Trello](https://trello.com/b/nBPS9Jsa/project-3-data)  
